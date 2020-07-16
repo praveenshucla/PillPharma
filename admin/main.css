@@ -1,0 +1,185 @@
+body {
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+}
+
+p
+{
+	padding-bottom: 3px;
+  font-style: oblique;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+h1{font-family:'Open Sans',Arial,Helvetica Neue,sans-serif;
+	width:100%;
+	font-size:25px;
+	text-transform:uppercase;
+	line-height:0.8;
+	letter-spacing:3px;
+	font-weight:300;
+  color:#DFDFDF;
+}
+
+hx{font-family:'Open Sans',Arial,Helvetica Neue,sans-serif;
+	width:100%;
+	font-size:15px;
+	text-transform:uppercase;
+	line-height:0.8;
+	letter-spacing:3px;
+	font-weight:300;
+  color:#DFDFDF;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+
+img{
+	width: 7%;
+	height: 2%;
+}
+
+#container {
+	background-color: aliceblue;
+	border-radius: 20px;
+	margin:0 auto;
+		width: 70%;
+	min-height: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+h2
+{
+	font-family: 'Roboto';
+	color: #566270;
+	padding-bottom: 5px;
+}
+
+h3
+{
+	font-family: 'Roboto';
+	color: #ffff;
+	padding-bottom: 2px;
+}
+
+input[type=text], textarea {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 15px 0px 15px 20px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid #DDDDDD;
+	border-radius: 25px;
+
+}
+input[type=password], textarea {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 15px 0px 15px 20px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid #DDDDDD;
+	border-radius: 25px;
+
+}
+
+input[type=text]:focus, textarea:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 15px 0px 15px 20px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+input[type=password]:focus, textarea:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 15px 0px 15px 20px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+button {
+  width: 100%;
+  border-top: 2px solid #e7e7e7;
+  border-bottom: 2px solid #e7e7e7;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+  background:#333;
+  color: white;
+  height: 7%;
+}
+button:hover{background-color:#25c481;}
+button:active{background-color:blue;}
+
+
+a.glow, a.glow:hover, a.glow:focus
+{
+	text-decoration: none;
+	color: #383A3F;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+
+a.glow:hover, a.glow:focus
+{
+	color: #6E7783;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+.alert-danger {
+  background-image: -webkit-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);
+  background-image:      -o-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2dede), to(#e7c3c3));
+  background-image:         linear-gradient(to bottom, #f2dede 0%, #e7c3c3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #dca7a7;
+
+}
+#frameContainer {
+    position: fixed;
+    height: 100%;
+    top:0px;
+    left: 160px;
+    right:0px;
+    bottom:0px;
+    z-index:1;
+}
+#main_iframe{
+    height: 100%;
+    width: 100%;
+}
+nav {position:fixed;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:160px;
+    background:#333;
+    color:#fff;
+    padding-top: 7px;
+    text-align: center;
+    z-index:2
+
+
+}
